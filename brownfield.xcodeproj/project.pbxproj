@@ -14,6 +14,7 @@
 		65B63513296F29F300CD9BFF /* brownfieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B63512296F29F300CD9BFF /* brownfieldTests.swift */; };
 		65B6351D296F29F300CD9BFF /* brownfieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6351C296F29F300CD9BFF /* brownfieldUITests.swift */; };
 		65B6351F296F29F300CD9BFF /* brownfieldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6351E296F29F300CD9BFF /* brownfieldUITestsLaunchTests.swift */; };
+		65B6352C296F2D9900CD9BFF /* RNHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6352B296F2D9900CD9BFF /* RNHostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		65B63518296F29F300CD9BFF /* brownfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brownfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B6351C296F29F300CD9BFF /* brownfieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brownfieldUITests.swift; sourceTree = "<group>"; };
 		65B6351E296F29F300CD9BFF /* brownfieldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brownfieldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65B6352B296F2D9900CD9BFF /* RNHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNHostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				65B63504296F29F300CD9BFF /* Assets.xcassets */,
 				65B63506296F29F300CD9BFF /* brownfield.entitlements */,
 				65B63507296F29F300CD9BFF /* Preview Content */,
+				65B6352B296F2D9900CD9BFF /* RNHostView.swift */,
 			);
 			path = brownfield;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B6352C296F2D9900CD9BFF /* RNHostView.swift in Sources */,
 				65B63503296F29F200CD9BFF /* ContentView.swift in Sources */,
 				65B63501296F29F200CD9BFF /* brownfieldApp.swift in Sources */,
 			);

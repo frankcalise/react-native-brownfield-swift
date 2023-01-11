@@ -8,12 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showView = false
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Button {
+                print("Button Pressed")
+                showView.toggle()
+            } label: {
+                Text("Present RN Screen")
+                    .font(.title2)
+                    .padding()
+                    .padding(.horizontal)
+            }
+            .buttonStyle(.borderedProminent)
+            
+            .fullScreenCover(isPresented: $showView) {
+                RNHostView()
+            }
         }
         .padding()
     }
