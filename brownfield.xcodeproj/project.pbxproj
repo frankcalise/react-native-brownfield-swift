@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B63501296F29F200CD9BFF /* brownfieldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B63500296F29F200CD9BFF /* brownfieldApp.swift */; };
+		65B63503296F29F200CD9BFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B63502296F29F200CD9BFF /* ContentView.swift */; };
+		65B63505296F29F300CD9BFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B63504296F29F300CD9BFF /* Assets.xcassets */; };
+		65B63509296F29F300CD9BFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B63508296F29F300CD9BFF /* Preview Assets.xcassets */; };
+		65B63513296F29F300CD9BFF /* brownfieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B63512296F29F300CD9BFF /* brownfieldTests.swift */; };
+		65B6351D296F29F300CD9BFF /* brownfieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6351C296F29F300CD9BFF /* brownfieldUITests.swift */; };
+		65B6351F296F29F300CD9BFF /* brownfieldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6351E296F29F300CD9BFF /* brownfieldUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65B6350F296F29F300CD9BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B634F5296F29F200CD9BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B634FC296F29F200CD9BFF;
+			remoteInfo = brownfield;
+		};
+		65B63519296F29F300CD9BFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B634F5296F29F200CD9BFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B634FC296F29F200CD9BFF;
+			remoteInfo = brownfield;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65B634FD296F29F200CD9BFF /* brownfield.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brownfield.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B63500296F29F200CD9BFF /* brownfieldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brownfieldApp.swift; sourceTree = "<group>"; };
+		65B63502296F29F200CD9BFF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65B63504296F29F300CD9BFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65B63506296F29F300CD9BFF /* brownfield.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = brownfield.entitlements; sourceTree = "<group>"; };
+		65B63508296F29F300CD9BFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65B6350E296F29F300CD9BFF /* brownfieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brownfieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B63512296F29F300CD9BFF /* brownfieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brownfieldTests.swift; sourceTree = "<group>"; };
+		65B63518296F29F300CD9BFF /* brownfieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brownfieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B6351C296F29F300CD9BFF /* brownfieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brownfieldUITests.swift; sourceTree = "<group>"; };
+		65B6351E296F29F300CD9BFF /* brownfieldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brownfieldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B634FA296F29F200CD9BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B6350B296F29F300CD9BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B63515296F29F300CD9BFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B634F4296F29F200CD9BFF = {
+			isa = PBXGroup;
+			children = (
+				65B634FF296F29F200CD9BFF /* brownfield */,
+				65B63511296F29F300CD9BFF /* brownfieldTests */,
+				65B6351B296F29F300CD9BFF /* brownfieldUITests */,
+				65B634FE296F29F200CD9BFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65B634FE296F29F200CD9BFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B634FD296F29F200CD9BFF /* brownfield.app */,
+				65B6350E296F29F300CD9BFF /* brownfieldTests.xctest */,
+				65B63518296F29F300CD9BFF /* brownfieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B634FF296F29F200CD9BFF /* brownfield */ = {
+			isa = PBXGroup;
+			children = (
+				65B63500296F29F200CD9BFF /* brownfieldApp.swift */,
+				65B63502296F29F200CD9BFF /* ContentView.swift */,
+				65B63504296F29F300CD9BFF /* Assets.xcassets */,
+				65B63506296F29F300CD9BFF /* brownfield.entitlements */,
+				65B63507296F29F300CD9BFF /* Preview Content */,
+			);
+			path = brownfield;
+			sourceTree = "<group>";
+		};
+		65B63507296F29F300CD9BFF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65B63508296F29F300CD9BFF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65B63511296F29F300CD9BFF /* brownfieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				65B63512296F29F300CD9BFF /* brownfieldTests.swift */,
+			);
+			path = brownfieldTests;
+			sourceTree = "<group>";
+		};
+		65B6351B296F29F300CD9BFF /* brownfieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65B6351C296F29F300CD9BFF /* brownfieldUITests.swift */,
+				65B6351E296F29F300CD9BFF /* brownfieldUITestsLaunchTests.swift */,
+			);
+			path = brownfieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65B634FC296F29F200CD9BFF /* brownfield */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B63522296F29F300CD9BFF /* Build configuration list for PBXNativeTarget "brownfield" */;
+			buildPhases = (
+				65B634F9296F29F200CD9BFF /* Sources */,
+				65B634FA296F29F200CD9BFF /* Frameworks */,
+				65B634FB296F29F200CD9BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = brownfield;
+			productName = brownfield;
+			productReference = 65B634FD296F29F200CD9BFF /* brownfield.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65B6350D296F29F300CD9BFF /* brownfieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B63525296F29F300CD9BFF /* Build configuration list for PBXNativeTarget "brownfieldTests" */;
+			buildPhases = (
+				65B6350A296F29F300CD9BFF /* Sources */,
+				65B6350B296F29F300CD9BFF /* Frameworks */,
+				65B6350C296F29F300CD9BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B63510296F29F300CD9BFF /* PBXTargetDependency */,
+			);
+			name = brownfieldTests;
+			productName = brownfieldTests;
+			productReference = 65B6350E296F29F300CD9BFF /* brownfieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65B63517296F29F300CD9BFF /* brownfieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B63528296F29F300CD9BFF /* Build configuration list for PBXNativeTarget "brownfieldUITests" */;
+			buildPhases = (
+				65B63514296F29F300CD9BFF /* Sources */,
+				65B63515296F29F300CD9BFF /* Frameworks */,
+				65B63516296F29F300CD9BFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B6351A296F29F300CD9BFF /* PBXTargetDependency */,
+			);
+			name = brownfieldUITests;
+			productName = brownfieldUITests;
+			productReference = 65B63518296F29F300CD9BFF /* brownfieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B634F5296F29F200CD9BFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					65B634FC296F29F200CD9BFF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					65B6350D296F29F300CD9BFF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 65B634FC296F29F200CD9BFF;
+					};
+					65B63517296F29F300CD9BFF = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 65B634FC296F29F200CD9BFF;
+					};
+				};
+			};
+			buildConfigurationList = 65B634F8296F29F200CD9BFF /* Build configuration list for PBXProject "brownfield" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65B634F4296F29F200CD9BFF;
+			productRefGroup = 65B634FE296F29F200CD9BFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B634FC296F29F200CD9BFF /* brownfield */,
+				65B6350D296F29F300CD9BFF /* brownfieldTests */,
+				65B63517296F29F300CD9BFF /* brownfieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65B634FB296F29F200CD9BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B63509296F29F300CD9BFF /* Preview Assets.xcassets in Resources */,
+				65B63505296F29F300CD9BFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B6350C296F29F300CD9BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B63516296F29F300CD9BFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B634F9296F29F200CD9BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B63503296F29F200CD9BFF /* ContentView.swift in Sources */,
+				65B63501296F29F200CD9BFF /* brownfieldApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B6350A296F29F300CD9BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B63513296F29F300CD9BFF /* brownfieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B63514296F29F300CD9BFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B6351F296F29F300CD9BFF /* brownfieldUITestsLaunchTests.swift in Sources */,
+				65B6351D296F29F300CD9BFF /* brownfieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65B63510296F29F300CD9BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B634FC296F29F200CD9BFF /* brownfield */;
+			targetProxy = 65B6350F296F29F300CD9BFF /* PBXContainerItemProxy */;
+		};
+		65B6351A296F29F300CD9BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B634FC296F29F200CD9BFF /* brownfield */;
+			targetProxy = 65B63519296F29F300CD9BFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		65B63520296F29F300CD9BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65B63521296F29F300CD9BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		65B63523296F29F300CD9BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = brownfield/brownfield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brownfield/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frankcalise.brownfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65B63524296F29F300CD9BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = brownfield/brownfield.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"brownfield/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frankcalise.brownfield;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65B63526296F29F300CD9BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frankcalise.brownfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brownfield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brownfield";
+			};
+			name = Debug;
+		};
+		65B63527296F29F300CD9BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frankcalise.brownfieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/brownfield.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/brownfield";
+			};
+			name = Release;
+		};
+		65B63529296F29F300CD9BFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frankcalise.brownfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brownfield;
+			};
+			name = Debug;
+		};
+		65B6352A296F29F300CD9BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frankcalise.brownfieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = brownfield;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65B634F8296F29F200CD9BFF /* Build configuration list for PBXProject "brownfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B63520296F29F300CD9BFF /* Debug */,
+				65B63521296F29F300CD9BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B63522296F29F300CD9BFF /* Build configuration list for PBXNativeTarget "brownfield" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B63523296F29F300CD9BFF /* Debug */,
+				65B63524296F29F300CD9BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B63525296F29F300CD9BFF /* Build configuration list for PBXNativeTarget "brownfieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B63526296F29F300CD9BFF /* Debug */,
+				65B63527296F29F300CD9BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B63528296F29F300CD9BFF /* Build configuration list for PBXNativeTarget "brownfieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B63529296F29F300CD9BFF /* Debug */,
+				65B6352A296F29F300CD9BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65B634F5296F29F200CD9BFF /* Project object */;
+}
